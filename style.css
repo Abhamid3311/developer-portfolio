@@ -1,0 +1,53 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+}
+.col-1 {
+  margin: 50px 20px;
+  width: 50%;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+.col-1 img {
+  width: 100%;
+}
+.org-clr {
+  color: orange;
+}
+.btn {
+  color: #fff;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Skill */
+
+.skill {
+  margin-top: 150px;
+}
+
+.skill h2 {
+  text-align: center;
+  margin-bottom: 70px;
+  font-weight: 600;
+}
+.progress-bar {
+  width: 70%;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.progress-titel {
+  font-size: 20px;
+  line-height: 15px;
+  margin-right: 5px;
+}
