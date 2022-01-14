@@ -1,8 +1,15 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 .container {
   display: flex;
+  margin-right: 20px;
+  margin-left: 40px;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 100px;
 }
 .col-1 {
   margin: 50px 20px;
@@ -12,33 +19,38 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 40px;
+  
 }
 .col-1 img {
   width: 100%;
 }
-.org-clr {
-  color: orange;
+.col-1 p{
+  margin-bottom: 30px;
+
 }
-.btn {
+.org-clr {
+  color: Tomato;
+}
+.cmn-btn{
   color: #fff;
   background-image: linear-gradient(orange, tomato);
   padding: 10px 30px;
   font-size: 18px;
   border-radius: 5px;
   text-decoration: none;
+ 
 }
 
 /* Skill */
 
-.skill {
-  margin-top: 150px;
-}
+
 
 .skill h2 {
   text-align: center;
   margin-bottom: 70px;
-  font-weight: 600;
+  font-weight: 700;
+ 
 }
 .progress-bar {
   width: 70%;
@@ -48,6 +60,82 @@ h2 {
 }
 .progress-titel {
   font-size: 20px;
-  line-height: 15px;
+  line-height: 25px;
   margin-right: 5px;
+}
+
+/* Develop */
+
+.contact-container .titel {
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+
+.container {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 40px;
+  background-image: url(images/shapes/shape-4.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.col-2 {
+  width: 50%;
+  margin-left: 20px;
+}
+.col-2 img {
+  width: 80%;
+}
+h2 {
+  font-size: 35px;
+}
+
+.second-banner {
+  background-position: right;
+}
+.know-commty {
+  margin-left: 20px;
+}
+
+/* Contact */
+
+.contacts {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contact-container .titel{
+  text-align: center;
+  font-weight: 700;
+}
+
+.col-1 input,
+.col-1 textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #f0f0f0;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  margin-top: 20px;
+  padding: 30px;
+}
+.footer h4 {
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+.footer .small-letter {
+  text-align: center;
+  font-size: 12px;
+  line-height: 15px;
+  color: #999;
 }
